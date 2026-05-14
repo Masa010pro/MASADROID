@@ -202,3 +202,106 @@ main {
   box-shadow: 0 0 8px var(--accent2);
   animation: pulse 2s infinite;
 }
+
+.hero h1 {
+  font-family: 'Orbitron', monospace;
+  font-size: clamp(2.8rem, 8vw, 6rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+  animation: fadeUp 0.7s 0.1s ease both;
+}
+
+.hero h1 .accent { color: var(--accent); text-shadow: 0 0 30px var(--accent-glow); }
+.hero h1 .accent2 { color: var(--accent2); }
+
+.hero-sub {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 540px;
+  margin: 1rem auto 2.5rem;
+  line-height: 1.7;
+  animation: fadeUp 0.7s 0.2s ease both;
+}
+
+.hero-location {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  animation: fadeUp 0.7s 0.25s ease both;
+}
+
+.hero-location span { color: var(--accent); }
+
+.hero-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeUp 0.7s 0.3s ease both;
+}
+
+/* ── BUTTONS ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.25s;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #000;
+  box-shadow: 0 0 20px var(--accent-glow), 0 4px 15px rgba(0,0,0,0.3);
+}
+.btn-primary:hover {
+  box-shadow: 0 0 40px var(--accent-glow), 0 6px 20px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border-bright);
+  backdrop-filter: blur(10px);
+}
+.btn-secondary:hover {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(37,211,102,0.3);
+}
+.btn-whatsapp:hover {
+  box-shadow: 0 0 40px rgba(37,211,102,0.5);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--border-bright);
+}
+.btn-outline:hover {
+  background: var(--accent-dim);
+  box-shadow: 0 0 20px var(--accent-glow);
+  transform: translateY(-2px);
+}
