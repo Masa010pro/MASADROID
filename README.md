@@ -3,7 +3,7 @@
 <p>I built this to give clients a proper place to meet me for all my services.</p>
 
 <p>PAGES IN MY WEB PAGE.</p>
-<p>About page: It contains brief infroemation about my business.</p>
+<p>About page: It contains brief information about my business.</p>
 <p>Contact page: It contains e-mail and WhatsApp number where my clients can reach me out.</p>
 <p>Pricing page: This page contains the various prices for the services I offer to my clients.</p>
 <p>Services page: It contains all packaged services and single services I offer to my clients.</p>
