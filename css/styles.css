@@ -582,3 +582,22 @@ section {
   margin-bottom: 1.75rem;
 }
 
+.pricing-features li {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.pricing-features li::before {
+  content: '✓';
+  color: var(--accent2);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.pricing-features li:last-child { border-bottom: none; }
+
