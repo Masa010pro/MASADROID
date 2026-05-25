@@ -1,5 +1,5 @@
 <p>MasaDroid</p>
-<p>This is my personal website for my android modding and GSM repair business based in Namanve, Mukono Uganda.</p>
+<p>This is my website for my android modding and GSM repair business based in Namanve, Mukono Uganda.</p>
 <p>I built this to give clients a proper place to meet me for all my services.</p>
 
 <p>PAGES IN MY WEB PAGE.</p>
